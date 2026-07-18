@@ -198,5 +198,5 @@ if __name__ == "__main__":
     import ml_model
     df = pd.read_csv("data/pakistan_census_2023.csv")
     out = ml_model.train_and_compare(df)
-    path = generate_report(df, out, chart_paths={}, student_name="Ali Hassan")
+    path = generate_report(df, out, chart_paths={}, student_name="Shumila Rafeeq")
     print(f"Report generated at {path}")
